@@ -10,7 +10,8 @@ import 'package:get/get.dart';
 class HomeController extends GetxController {
   final storageService = StorageService();
   final FirebaseAuth _auth = FirebaseAuth.instance;
-
+  RxBool isLoading = false.obs;
+  var getProductsResponse = GetProductsResponse().obs;
   var user = Rxn<User>();
 
   RxString name = "".obs;
@@ -30,8 +31,7 @@ class HomeController extends GetxController {
     super.onInit();
   }
 
-  RxBool isLoading = false.obs;
-  var getProductsResponse = GetProductsResponse().obs;
+
 
   void fetchHomeFeeds() async {
     try {
