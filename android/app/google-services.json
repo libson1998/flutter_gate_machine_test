@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "84453579095",
+    "project_id": "flutter-gate",
+    "storage_bucket": "flutter-gate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84453579095:android:588a98cbe4255bdbf98612",
+        "android_client_info": {
+          "package_name": "com.example.flutter_gate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84453579095-4k2ged20nfdk563sll7d3vqhl6mau183.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApno0Uq5-9S5U5bTeEwpDhJz8hEsgSs8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84453579095-4k2ged20nfdk563sll7d3vqhl6mau183.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
